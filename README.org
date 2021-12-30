@@ -20,7 +20,7 @@
   clj -X core/-main
   #+END_SRC
   
-* Reference
+* References
 
   - https://github.com/borkdude/clojure-rust-graalvm
   - https://docs.rs/jni/0.14.0/jni/
