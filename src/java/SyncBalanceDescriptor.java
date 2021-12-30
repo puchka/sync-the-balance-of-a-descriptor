@@ -1,4 +1,4 @@
-class SyncBalanceDescriptor {
+public class SyncBalanceDescriptor {
   private static native String balance();
 
   static {
