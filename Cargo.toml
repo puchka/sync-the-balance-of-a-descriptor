@@ -1,0 +1,17 @@
+[package]
+name = "sync-the-balance-of-a-descriptor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+bdk = "0.14.0"
+bitcoin = "0.27.1"
+jni = "0.14.0"
+futures = "0.3.1"
+
+[lib]
+
+crate_type = ["cdylib"]

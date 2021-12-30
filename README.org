@@ -1,0 +1,30 @@
+#+TITLE: Sync the balance of a descriptor
+
+* Description
+
+  This repository demonstrates the use of JNI to access
+  Bitoin Dev Kit from Java and later use Clojure Java Interop
+  to use this data from Clojure.
+  
+  This example sync the balance of a descriptor.
+  
+* Prerequisites
+
+  - Cargo
+  - JDK
+  
+* How to run
+  
+  #+BEGIN_SRC sh
+  cargo build
+  export LD_LIBRARY_PATH=/path/to/sync-the-balance-of-a-descriptor/target/debug
+javac src/java/SyncBalanceDescriptor.java
+java -cp src/java/ SyncBalanceDescriptor
+  #+END_SRC
+  
+* Reference
+
+  - https://github.com/borkdude/clojure-rust-graalvm
+  - https://docs.rs/jni/0.14.0/jni/
+  - https://bitcoindevkit.org/docs-rs/bdk/nightly/latest/bdk/#sync-the-balance-of-a-descriptor
+    
